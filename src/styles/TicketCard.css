@@ -1,0 +1,94 @@
+.ticket-card-header {
+    flex-direction: column;
+    gap: 4px;
+}
+
+.ticket-id,
+.ticket-title {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.ticket-card-body {
+    margin-top: 8px;
+}
+
+.feature-request-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.feature-request-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.feature-image-box {
+    border: 1px solid #b9b4b4;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.feature-text-box {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 2mm;
+}
+
+.feature-image {
+    width: 20px;
+    height: 16px;
+}
+
+.ticket-card-body span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.ticket-card {
+    position: relative; /* Ensures the image can be positioned absolutely */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px; /* Standard padding for the content */
+    padding-top: 40px; /* Space for the circle image */
+    overflow: hidden;
+}
+
+.circle-image-wrapper {
+    position: absolute;
+    top: 0px; /* Adjust distance from the top */
+    right: 0px; /* Adjust distance from the right */
+    width: 30px;
+    height: 20px;
+    background-color: #f0f0f0; /* Background for the circle container */
+    border-radius: 50%; /* Make the wrapper circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for depth */
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    top: 0px; /* Adjust distance from the top */
+    right: 0px; /* Adjust distance from the right */
+    width: 30px;
+    height: 20px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+}
+
+.ticket-card-header {
+    margin-top: 0; /* Remove margin from header */
+}
+
+.ticket-id, .ticket-title {
+    margin: 0; /* Remove extra margins from the text elements */
+    padding: 0; /* Remove extra padding */
+}
+
